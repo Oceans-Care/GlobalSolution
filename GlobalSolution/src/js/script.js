@@ -1,10 +1,9 @@
-//esconder as informações da empresa
-document.getElementById('botão1').addEventListener('click', function() {
-    var section = document.getElementById('sec1');
-    if (section.classList.contains('hidden')) {
-        section.classList.remove('hidden');
+
+document.getElementById('showSectionButton').addEventListener('click', function() {
+    var hiddenSection = document.getElementById('hiddenSection');
+    if (hiddenSection.classList.contains('hidden')) {
+        hiddenSection.classList.remove('hidden');
     } else {
-        section.classList.add('hidden');
+        hiddenSection.classList.add('hidden');
     }
 });
-
