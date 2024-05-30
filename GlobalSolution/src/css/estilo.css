@@ -11,10 +11,10 @@
     list-style: none;
 }
 body{
-    background-color: rgb(13, 60, 146);
+    background-color: var(--color--3);
 }
 header{
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgb(27, 55, 146);
     width: 100%;
     height: 70px;
     display: flex;
@@ -38,7 +38,17 @@ nav ul li a{
 
 #logoinicial{
     width: 100%;
+
 }
+#botão1{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--color--1);
+}
+#botão1:hover{
+    cursor: pointer;
+}
+
 #secao1{
     background-color: var(--color--3);
     margin-top: -6px;
