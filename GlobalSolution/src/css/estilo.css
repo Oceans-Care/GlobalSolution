@@ -91,7 +91,7 @@ nav ul{
 }
 #section1{
     position: absolute;
-    margin-top: -55%;   
+    margin-top: -55%;
 }
 #titulo1{
     font-family: "Hina Mincho", serif;
@@ -101,9 +101,13 @@ nav ul{
 }
 #texto1{
     color: var(--color--1);
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin-top: 70px;
+    text-align: center;
+
+}
+#section2{
 }
 footer{
     margin-top: -7px;
