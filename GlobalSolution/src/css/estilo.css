@@ -12,6 +12,7 @@
 }
 body{
     background-color: var(--color--3);
+    
 }
 header{
     background-color: rgba(0, 0, 0, 0.363);
@@ -32,10 +33,14 @@ nav ul{
     margin-top: 22px;
     margin-right: 20px;
 }
-nav ul li a{
-    color: var(--color--1);  
+.navt{
+    color: rgba(255, 255, 255, 0.74); 
+    transition: 0.3s;
 }
-
+.navt:hover{
+    color: white;
+    font-size: larger;
+}
 #logoinicial{
     width: 100%;
 
@@ -80,10 +85,43 @@ nav ul li a{
     text-align: center;
     margin-top: 70px;
 }
-#section1{
-    width: 100%;
-    height: px;
-}
 #fundolixo{
     width: 100%;
+    
+}
+#section1{
+    position: absolute;
+    margin-top: -55%;   
+}
+#titulo1{
+    font-family: "Hina Mincho", serif;
+    color: var(--color--1);
+    font-size: 60px;
+    text-align: center;
+}
+#texto1{
+    color: var(--color--1);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+}
+footer{
+    margin-top: -7px;
+    height: 90px;
+    background-color: rgb(58, 58, 58);
+}
+#logos{
+    text-align: center;
+}
+#o20{
+    width: 100px;
+}
+#oc{
+    width: 100px;
+}
+#f{
+    width: 150px;
+}
+h4{
+    text-align: center;
 }
