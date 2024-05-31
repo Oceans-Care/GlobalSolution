@@ -93,7 +93,7 @@ nav ul{
     text-align: center;
     margin-top: -55%;
     height: 900px;
-
+    
 }
 #titulo1{
     font-family: "Hina Mincho", serif;
@@ -121,6 +121,27 @@ nav ul{
     text-align: center;
 }
 #texto2{
+    color: var(--color--1);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 70px;
+}
+#imgmarlimpo{
+    width: 100%;
+}
+#section3{
+    height: 600px;
+    color: var(--color--1);
+    text-align: center;
+    
+}
+#titulo3{
+    font-family: "Hina Mincho", serif;
+    color: var(--color--1);
+    font-size: 60px;
+    text-align: center;
+}
+#texto3{
     color: var(--color--1);
     font-size: 35px;
     text-align: center;
