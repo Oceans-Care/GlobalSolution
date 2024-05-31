@@ -110,7 +110,7 @@ nav ul{
 }
 #section2{
     
-    height: 600px;
+    height: 400px;
     color: var(--color--1);
     text-align: center; 
 }
@@ -125,6 +125,14 @@ nav ul{
     font-size: 35px;
     text-align: center;
     margin-top: 70px;
+}
+.containervid{
+    text-align: center;
+}
+#meuvideo{
+    width: 50%;
+    border-radius: 20px;
+    
 }
 #imgmarlimpo{
     width: 100%;
@@ -161,7 +169,8 @@ footer{
     width: 100px;
 }
 #f{
-    width: 150px;
+    width: 100px;
+    margin-bottom: 13px;
 }
 h4{
     text-align: center;
