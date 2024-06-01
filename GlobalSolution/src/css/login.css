@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+:root{
+    --color--1: white;
+    --color--2: black;
+    --color--3: rgb(1, 4, 39);
+    --color--4: rgba(1, 29, 62, 1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: var(--color--3);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.363);
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+#logo{
+    width: 100px;
+    margin-top: -4px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-right: 20px;
+}
+nav ul img{
+    width: 1px;
+    margin-top: -2px;
+}
+.navt{
+    color: rgba(255, 255, 255, 0.74); 
+    transition: 0.3s;
+}
+.navt:hover{
+    color: white;
+    font-size: larger;
+}
+
+footer{
+    margin-top: -7px;
+    height: 90px;
+}
+#logos{
+    text-align: center;
+}
+#o20{
+    width: 100px;
+}
+#oc{
+    width: 100px;
+}
+#f{
+    width: 100px;
+    margin-bottom: 13px;
+}
+h4{
+    text-align: center;
+    color: var(--color--1);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./src/img/logo.png" alt="logo" id="logo">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html" class="navt">Voltar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="cadastro">
+        <h1 id="login">Cadastro</h1>
+        <div id="divsub">
+            <h2 class="subtextologin">Usuário: user</h2>
+            <h2 class="subtextologin">Senha: 1234</h2>
+        </div>
+            <div class="dados">
+                <label for="user"></label>
+                <input type="text" id="userhtml" placeholder="Usuário">
+                
+                <label for="senha"></label>
+                <input type="password" id="senhahtml" placeholder="Senha:">
+            </div>
+
+            <div class="confirmacao">
+                <button id="entrar" onclick="validar()">Entrar</button>
+            </div>
+    </section>
+
+    <footer>
+        <section id="logos">
+          <a href="https://www.g20.org/pt-br/g20-social/grupos-de-engajamento/oceans-20" target="_blank">
+            <img src="./src/img/o20.png" alt="" id="o20">
+          </a>
+          <img src="./src/img/logo.png" alt="" id="oc">
+          <a href="https://www.fiap.com.br/?gad_source=1&gclid=CjwKCAjwx-CyBhAqEiwAeOcTddhNRvgZKpqfAFtCyHLQePt8AH2IgshCZLv0MKSxFIuoiMTIG2Y60BoCPFgQAvD_BwE" target="_blank">
+            <img src="./src/img/fiap.png" alt="fiap" id="f">
+          </a>
+        </section>
+        <h4>@2024- Todos direitos reservados à Ocean Care, Fiap e Oceans 20.
+        </h4>
+    </footer>
+
+    <script src="./src/js/login.js"></script>
+</body>
+</html>
