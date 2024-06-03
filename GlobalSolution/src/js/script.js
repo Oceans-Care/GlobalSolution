@@ -1,3 +1,4 @@
+
 //segmento escondido com botão
 document.getElementById('showSectionButton').addEventListener('click', function() {
 

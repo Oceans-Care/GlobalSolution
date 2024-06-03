@@ -52,6 +52,9 @@ nav ul img{
     justify-content: center;
     margin-top: 60px;
 }
+#login{
+    opacity: 0%;
+}
 .dados{
     justify-content: center;
     display: flex;
