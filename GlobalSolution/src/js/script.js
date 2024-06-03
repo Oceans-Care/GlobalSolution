@@ -34,3 +34,18 @@ document.getElementById('aparecergraficos').addEventListener('click', function()
         hiddenSection.classList.add('hidden');
     }
 });
+
+let imagens2=['./src/img/frame1.png','./src/img/frame2.png'];
+let index2 = 0;
+let time2 = 4000;
+
+function slideShow2(){
+    document.getElementById('imgBanner2').src=imagens2[index2];
+    index2++;
+
+    if(index2 == imagens2.length){
+        index2 = 0;
+    }
+    setTimeout('slideShow2()', time2);
+}
+slideShow2();
