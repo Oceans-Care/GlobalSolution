@@ -197,7 +197,6 @@ label{
     border-radius: 20px;
     box-shadow: 1px 1px black;
 }
-
 #btn2{
     display: flex;
     transition: all 0.4s;
