@@ -52,6 +52,7 @@ Esta é nossa entrega da matéria de Edge Computing e Computer Systems na Global
   </tr>
 </table>
 
+# 🤔 Como Funcionará
 Nosso Sistema de artduíno ficará concetado diretamente na nossa solução, o Filtro de Emissário. A função dele será registrar a pressão/força que está sendo aplicada nas grades de proteção e no filtro. Essa solução será de muita ajuda, visto a dificuldade de checar todos os filtros com frequência. Com isso podemos ter controle de todos ao mesmo tempo.
 
 ![1](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/429a0190-d19d-4335-9e0d-36f10e2ef22b)
