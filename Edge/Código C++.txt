@@ -1,0 +1,25 @@
+Código C++
+
+int FORCE_SENSOR = A0; // define o pino Analógico 0 para o sensor de força
+
+void setup()
+{
+  	Serial.begin(9600); // Inicia a comunicação serial com uma taxa de transmissão de 9600 bits por segundo
+  	pinMode(FORCE_SENSOR, INPUT); // Define o sensor de força como entrada
+}
+
+void loop()
+{
+  	int analogReading = analogRead(FORCE_SENSOR); // Lê o valor do sensor de força conectado ao pino analógico A0
+  	Serial.println(analogReading);
+  if(analogReading > 389){ // Se o Sensor estiver maior do que 389 manda mensagem de pressão alta
+      Serial.print("Pressao alta (instavel)= ");
+  }
+  else if(analogReading < 200){ // Se o Sensor estiver menor do que 200 manda mensagem de pressão baixa
+      Serial.print("Pressao baixa (estavel) = ");
+  }
+  else{ // Se o Sensor estiver entre 389 e 200 manda mensagem de pressão média
+      Serial.print("Pressao media (estavel) = ");
+  }
+  delay(500); // Aguarda 500 milissegundos antes de ler o sensor novamente
+}
