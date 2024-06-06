@@ -1,5 +1,6 @@
 # 🌊 Ocean Care 🌫️
-![image](FrontEnd.WebDev/src/img/logo.png)
+
+![logo](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/061fce61-df56-4dca-a2fe-efdeecd5a5b0)
 ## 📚 Trabalho Feito por:
 ### Artur Alves Tenca
 - RM 555171
@@ -9,12 +10,13 @@
 - RM 555035
 - Turma: 1ESPH
 
-### Giuliana Lucas Mozine Lima
+### Giuliana Lucas Mozini Lima
 - RM 557597
 - Turma: 1ESPH
 
 
-![image](FrontEnd.WebDev/src/img/GS.PNG)
+
+![GS](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/0e9b5040-7d1f-450f-9827-a91e3b7a7e9c)
 
 <h1> 🌎 Global Solution 2024 - Entrega de Edge Computing e Computer Systems </h1>
 Esta é nossa entrega da matéria de Edge Computing e Computer Systems na Global Solution em parceria com a OCEANS 20.
