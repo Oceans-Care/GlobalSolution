@@ -33,9 +33,23 @@ Nosso desafio foi contribuir com soluções que promovam a sustentabilidade dos 
 Nosso Sistema de Phyton é simples, porém eficiente. Ele tem o intuito de fazer com que os funcionários responsáveis pelo projeto possam cadastrar os emissários que possuem filtros instalados. Devem informar onde estão localiados, seus números e a qualidade dos emissários, deixando assim mais fácil de localizar aqueles que devem ser reparados.
 
 ## 👩🏻‍💻 Como funciona o Código?
+Definindo as cores para formatar a saída do texto no terminal e definindo uma classe para representar um emissário.
 
+![1](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/fe948f0d-bda3-4ff6-9ebe-7f588e718888)
 
+Criando uma  lista para armazenar os emissários cadastrados e Função para cadastrar um novo emissário.
+Criando tambéem um novo objeto emissário e adicionando-o à lista de emissários cadastrados.
+
+![2](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/d95c254b-afcd-479a-8de9-9e331103163e)
+
+Função para visualizar os emissários cadastrados e Iterando sobre a lista de emissários e imprimindo suas informações
+
+![3](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/e0a8bf2e-beb5-4b7a-aea6-48116ace88bb)
+
+Função para exibir um menu e interagir com o usuário. Estou também verificando a opção escolhida pelo usuário e executando a ação correspondente. Por fim verifico se o script está sendo executado diretamente e chamando a função de menu.
+
+![4](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/3602903a-e192-4b43-b3b2-750f2d33c4fc)
 
 ## 🎯 Resultados Esperados 
 
-Esperamos que o projeto previne quebras inesperadas, e, consequentemente, evite gastos de dinheiro desnecessários, visto que nosso projeto visa economizar o máximo de dinheiro possível, já que é um projeto em larga escala. Também é um bom dispositivo para saber se é necessário a limpeza do local, se há muito lixo acumulado, se o fluxo de água está normal, entre outros fatores muito importantes.
+Esperamos que o projeto ajude a localização dos emissários, assim ajudando na organização e facilitando a localização dos mesmos. Também é bem útil para previnir quebras, já deixando seus estados de qualidade registrados.
