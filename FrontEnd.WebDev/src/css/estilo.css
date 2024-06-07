@@ -238,7 +238,7 @@ nav ul img{
     transition: all 0.4s;
 }
 #section4{
-    height: 1000px;
+    height: 800px;
     background-image: url(../img/praia.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -269,6 +269,7 @@ nav ul img{
 #section5{
     background-color: var(--color--1);
     height: 400px;
+
 }
 #titulo5{
     position: absolute;
