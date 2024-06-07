@@ -1,4 +1,4 @@
-# 🌊 Ocean Care 🌫️
+# 🌊 Ocean Care 🌫️ - Edge 🔌
 
 ![logo](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/061fce61-df56-4dca-a2fe-efdeecd5a5b0)
 ## 📚 Trabalho Feito por:
