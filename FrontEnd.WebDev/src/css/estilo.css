@@ -16,6 +16,9 @@ body{
     background-color: var(--color--3);
     
 }
+#logocel{
+    display: none;
+}
 header{
     background-color: rgba(0, 0, 0, 0.363);
     width: 100%;
@@ -109,13 +112,11 @@ label{
 }
 #fundolixo{
     width: 100%;
-    
 }
 #section1{
     text-align: center;
     margin-top: -55%;
     height: 900px;
-    
 }
 #titulo1{
     font-family: "Hina Mincho", serif;
@@ -158,9 +159,6 @@ label{
 #meuvideo{
     width: 50%;
     border-radius: 20px; 
-}
-#imgmarlimpo{
-    width: 100%;
 }
 #section3{
 
@@ -329,13 +327,113 @@ h4{
     color: var(--color--1);
 }
 
-@media (max-width:800px){
+@media (max-width:600px){
+    #logocel{
+        position: fixed;
+        display: flex;
+        width: 100px;
+        margin-left: 5px;
+    }
     header{
     display: 
     none;
     }
     .btn1{
-    margin-left: 30%;
+    margin-left: 23%;
     font-size: 10%;
+    }
+    #titulo0{
+        font-size: 50px;
+    }
+    #texto0{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    #section1{
+        height: 330px;
+    }
+    #titulo1{
+        font-size: 35px;
+    }
+    #texto1{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    #titulo2{
+        font-size: 50px;
+        text-align: center;
+    }
+    #texto2{
+        color: var(--color--1);
+        font-size: 25px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .containervid{
+        margin-top: -70px;
+    }
+    #meuvideo{
+        width: 70%;
+        border-radius: 20px; 
+    }
+    #titulo3{
+        font-size: 50px;
+    }
+    #texto3{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    #btn2{
+        margin-left: 35%;
+        font-size: 10%;
+    }
+    #banner {
+        width: 30%;
+        height: 500px;
+    }
+    #section4{
+        height: 300px;
+    }
+    #titulo4{
+        left: 21%;
+        font-size: 50px;
+        width: 600px;
+        margin-top: -140px;
+    }
+    #texto4{
+        left: 12%;
+        width: 500px;
+        font-size: 25px;
+        margin-top: -50px;
+    }
+    #titulo5{
+        font-size: 40px;
+        padding-top: 10px;   
+    }
+    #texto5{
+        width: 400px;
+        font-size: 25px;
+        margin-top: 70px;
+        font-weight: bolder;
+    }
+    #section6{
+        background-image: url(../img/Frame\ 3.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 538px;
+        margin-top: -5PX;
+        background-color: rgba(131, 125, 113, 1);
+    }
+    #titulo6{
+        margin-left: 13%;
+        font-size: 50px;
+        width: 400px;
+        padding-top: 200px;
+    }
+    #texto6{
+        margin-left: 4%;
+        margin-top: 20PX;
+        font-size: 25px;
+        width: 500px;
     }
 }
