@@ -27,9 +27,6 @@ header{
     justify-content: space-between;
     position: fixed;
 }
-#btn-mobile {
-    display: none;
-  }
 #logo{
     width: 100px;
     margin-top: -4px;
@@ -45,12 +42,22 @@ nav ul img{
     width: 1px;
     margin-top: -2px;
 }
+label[for="bt-menu"] {
+    padding: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
 #bt-menu{
     display: none;
 }
-label{
+label[for="bt-menu"]{
     display: none;
 }
+
 .navt{
     color: rgba(255, 255, 255, 0.74); 
     transition: 0.3s;
@@ -337,9 +344,6 @@ h4{
         width: 100px;
         margin-left: 5px;
     }
-    #hamburguer{
-
-    }
     header{
     display: 
     none;
@@ -357,45 +361,24 @@ h4{
         visibility: hidden;
         overflow-y: hidden;
     }
-    #nav.active #menu {
-        height: calc(100vh - 70px);
-        visibility: visible;
-        overflow-y: auto;
+    #bt-menu{
+        display: none;
     }
-    #btn-mobile {
-        display: flex;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: 0.5rem;
-      }
-      #hamburger {
-        border-top: 2px solid;
-        width: 20px;
-      }
-      #hamburger::after,
-      #hamburger::before {
-        content: '';
+    label[for="bt-menu"]{
+        position: fixed;
         display: block;
-        width: 20px;
-        height: 2px;
-        background: currentColor;
-        margin-top: 5px;
-        transition: 0.3s;
-        position: relative;
-      }
-      #nav.active #hamburger {
-        border-top-color: transparent;
-      }
-      #nav.active #hamburger::before {
-        transform: rotate(135deg);
-      }
-      #nav.active #hamburger::after {
-        transform: rotate(-135deg);
-        top: -7px;
-      }
+        padding: -10px;
+        color: black;
+        display: flex;
+        margin-left: 500px;
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    #bt-menu:checked ~ nav{
+        margin-left: 0;
+    }
     .btn1{
     margin-left: 23%;
     font-size: 10%;
