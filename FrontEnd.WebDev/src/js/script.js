@@ -52,3 +52,5 @@ function slideShow2(){
 slideShow2();
 
 //menu mobile (hamburguer)
+let btnmenu = document.getElementById('btn-menu')
+let menu = document.getElementById('menu-mobile')
