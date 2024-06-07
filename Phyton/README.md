@@ -1,4 +1,4 @@
-# 🌊 Ocean Care 🌫️
+# 🌊 Ocean Care 🌫️ - Phyton 🐍
 
 ![logo](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/061fce61-df56-4dca-a2fe-efdeecd5a5b0)
 ## 📚 Trabalho Feito por:
@@ -18,65 +18,23 @@
 
 ![GS](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/0e9b5040-7d1f-450f-9827-a91e3b7a7e9c)
 
-<h1> 🌎 Global Solution 2024 - Entrega de Edge Computing e Computer Systems </h1>
-Esta é nossa entrega da matéria de Edge Computing e Computer Systems na Global Solution em parceria com a OCEANS 20.
+<h1> 🌎 Global Solution 2024 - Entrega de Computional Thinking With Python </h1>
+Esta é nossa entrega da matéria de Computional Thinking With Python na Global Solution em parceria com a OCEANS 20.
   
-# ⚡ Sistema com arduino
+# 💡 Nossa ideia
 
-![2](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/841e5969-eb00-4dcd-a7da-5ae5ce019647)
+![Frame 4](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/f9d30421-2100-4523-befe-64fcf3e3f074)
 
-# 🧱 Itens Necessários 
+# ❓ Problema a se Resolver 
 
-<table>
-  <tr>
-    <td> Sensor de pressão à prova d'água </td>
-    <td> R$ 5,20 </td>
-  </tr>
-  <tr>
-    <td> Bateria 9V</td>
-    <td> R$ 20,70 </td>
-  </tr>
-  <tr>
-    <td> Arduino Uno R3 </td>
-    <td> R$ 85.40 </td>
-  </tr>
-  <tr>
-    <td> 1 resistor 1/2 W </td>
-    <td> R$ 0,50 </td>
-  </tr>
-  <tr>
-    <td> Cabo Wire Jumper </td>
-    <td> R$ 15,00 </td>
-  </tr>
-   <tr>
-    <td> HC-06 BLUETOOTH </td>
-    <td> R$ 37,00 </td>
-  </tr>
-</table>
+Nosso desafio foi contribuir com soluções que promovam a sustentabilidade dos oceanos. Para isso chegamos a solução de filtros em emissários. Contudo, esses filtros serão espalhados por todo país. Com isso, surgiu outro problema, o de lovalização e cadastro daqueles que possuem filtros. Para isso usamos um sistema em phyton.
 
 # 🤔 Como Funcionará
-Nosso Sistema de artduíno ficará concetado diretamente na nossa solução, o Filtro de Emissário. A função dele será registrar a pressão/força que está sendo aplicada nas grades de proteção e no filtro. Essa solução será de muita ajuda, visto a dificuldade de checar todos os filtros com frequência. Com isso podemos ter controle de todos ao mesmo tempo.
+Nosso Sistema de Phyton é simples, porém eficiente. Ele tem o intuito de fazer com que os funcionários responsáveis pelo projeto possam cadastrar os emissários que possuem filtros instalados. Devem informar onde estão localiados, seus números e a qualidade dos emissários, deixando assim mais fácil de localizar aqueles que devem ser reparados.
 
-![1](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/429a0190-d19d-4335-9e0d-36f10e2ef22b)
-![3](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/b5c4f204-0ab4-452f-a319-04fcfde90891)
+## 👩🏻‍💻 Como funciona o Código?
 
-Serão 4 Sensores 1 para cada tela e para o filtro. Eles serão fixados na borda inferior dos mesmos. Eles serão essenciais para vida útil dos filtros, visto que a grande pressão da água e do lixo ao se acumular pode ser grande o suficiente par quebrar too sistema, e assim vazar todo lixo coletado. Contudo temos um problema: O sensor estará em constante contato com a água, então devem ser comprados sensores à prova d'agua.
 
-![4](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/f191cf0b-45f5-44ec-81c7-43300949ccce)
-
-## 🗃️ Projeto no Tinkercad 
-
-![tinkercad](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/8576bae4-8f93-42c9-a672-a333ebcbe509)
-
-## 👩🏻‍💻 Código Comentado 
-
-![codigo](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/6f7f5148-e6d7-4df3-816f-e91814813501)
-
-## 🌐 Leitura Bluetooth
-
-Para que os funcionários responsáveis estejam cientes dos stutus gravados pelo arduíno, será necessário um HC-06 Bluetooth module ( dispositivo bluetooth que será responsável por conectar o serial monitor ao celular). Com isso também será necessário a instalação de um aplicativo no slular que lê o SerialPrint.
-
-![hc06](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/7aa2e1a9-4689-4ff2-857a-734b0303f3d8)
 
 ## 🎯 Resultados Esperados 
 
