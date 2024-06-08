@@ -1,4 +1,4 @@
-# 🌊 Ocean Care 🌫️ - Phyton 🐍
+# 🌊 Ocean Care 🌫️ - Python 🐍
 
 ![logo](https://github.com/Oceans-Care/GlobalSolution/assets/162123371/061fce61-df56-4dca-a2fe-efdeecd5a5b0)
 ## 📚 Trabalho Feito por:
@@ -30,7 +30,7 @@ Esta é nossa entrega da matéria de Computional Thinking With Python na Global 
 Nosso desafio foi contribuir com soluções que promovam a sustentabilidade dos oceanos. Para isso chegamos a solução de filtros em emissários. Contudo, esses filtros serão espalhados por todo país. Com isso, surgiu outro problema, o de lovalização e cadastro daqueles que possuem filtros. Para isso usamos um sistema em phyton.
 
 # 🤔 Como Funcionará
-Nosso Sistema de Phyton é simples, porém eficiente. Ele tem o intuito de fazer com que os funcionários responsáveis pelo projeto possam cadastrar os emissários que possuem filtros instalados. Devem informar onde estão localiados, seus números e a qualidade dos emissários, deixando assim mais fácil de localizar aqueles que devem ser reparados.
+Nosso Sistema de Python é simples, porém eficiente. Ele tem o intuito de fazer com que os funcionários responsáveis pelo projeto possam cadastrar os emissários que possuem filtros instalados. Devem informar onde estão localiados, seus números e a qualidade dos emissários, deixando assim mais fácil de localizar aqueles que devem ser reparados.
 
 ## 👩🏻‍💻 Como funciona o Código?
 Definindo as cores para formatar a saída do texto no terminal e definindo uma classe para representar um emissário.
