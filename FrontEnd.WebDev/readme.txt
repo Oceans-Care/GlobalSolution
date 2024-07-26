@@ -6,4 +6,4 @@ Giuliana Lucas - RM557597
 
 link do site (git pages):
 
-https://oceans-care.github.io/GlobalSolution/FrontEnd.WebDev/index.html
+[Link para o site](https://oceans-care.github.io/GlobalSolution/FrontEnd.WebDev/index.html)
